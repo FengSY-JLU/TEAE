@@ -17,7 +17,7 @@ The provenance below is based on the project's frozen teacher training configura
 
 This is a **non-commercial academic research/evaluation release**. For components derived from NVIDIA SegFormer, the NVIDIA Source Code License for SegFormer controls their distribution and use; Section 3.3 restricts the Work and derivative works to non-commercial research or evaluation. Complete copies of the identified upstream license documents are included under `LICENSES/` within the model tarball. The presence of a permissive source-code license for Transformers, TorchVision, or timm does **not** supersede restrictions on another party's pretrained checkpoint. No commercial permissions over third-party components are granted by TEAE.
 
-The archive includes 12 project-trained model-only checkpoints. DTI-UIE and HSRUIE *enhancement-model checkpoints* are not rehosted; see their authors' official repositories for separate weights and terms. The research-only boundary also excludes Stage-I Explorer/Oracle code, privileged rollout/training artifacts, and SSOR.
+The archive includes 12 project-trained model-only checkpoints. DTI-UIE and HSRUIE *enhancement-model checkpoints* are not rehosted; see their authors' official repositories for separate weights and terms.
 
 ## Official references
 
