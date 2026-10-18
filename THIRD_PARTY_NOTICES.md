@@ -22,3 +22,9 @@ This repository contains TEAE research-authored inference and evaluation code. T
 4. Keep the 12-checkpoint Release as a draft/private asset until the applicable conditions have been satisfied. A public source repository does not automatically license its binaries.
 
 **No repository-wide license is automatically granted by this document.** This notice is informational and not a substitute for reviewing the applicable license texts or obtaining permission where needed.
+
+## Model checkpoint provenance (v0.1.0)
+
+For source-specific model lineage and per-family applicable restrictions, see [`MODEL_PROVENANCE.md`](MODEL_PROVENANCE.md). The v0.1.0 model archive includes seven official license texts under `LICENSES/`: NVIDIA SegFormer, HRNet semantic segmentation, HRNet classification, NAFNet, TorchVision, timm, and Transformers. The source and the pretrained weights do not necessarily have identical licenses.
+
+In particular, NVIDIA's SegFormer license (§§3.1–3.3) imposes full-license and notice-preservation obligations and limits use of the original work and derivatives to non-commercial research/evaluation. Checkpoints inheriting MiT-B2 parameters remain subject to that restriction. TEAE grants no additional rights in third-party material. Original DTI-UIE and HSRUIE enhancement checkpoints are not included.

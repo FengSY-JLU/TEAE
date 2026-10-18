@@ -121,3 +121,11 @@ The manuscript is being prepared for *IEEE Transactions on Image Processing*. A 
 ## Questions
 
 Please use this repository's Issues section for questions about the released inference interface and evaluation protocols. Check `metadata/` for the frozen evaluation conditions and release details.
+
+## Models, provenance and licenses
+
+TEAE v0.1.0 provides frozen inference and evaluation assets for **non-commercial research and evaluation**. Deployment runs a **frozen HRNet-W18 CorrectState encoder (L0–L4) and a single C2-A Student forward pass**; there is no Stage-I action search during inference. Download the models from [v0.1.0 Releases](../../releases/tag/v0.1.0).
+
+Read [`MODEL_PROVENANCE.md`](MODEL_PROVENANCE.md) and [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) before using or redistributing checkpoints. The model tarball includes applicable complete license texts under `LICENSES/`. NVIDIA SegFormer/MiT-B2-derived components retain NVIDIA's non-commercial research/evaluation restrictions; permissive code dependency licenses do not override them. No original DTI-UIE or HSRUIE enhancement checkpoint is rehosted here.
+
+Verify the model tarball against the SHA256 published in the release and accompanying `SHA256SUMS.txt`. This manuscript is currently **prepared for submission** to IEEE TIP; no submission or publication status is claimed.
