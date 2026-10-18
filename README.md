@@ -116,7 +116,7 @@ The included code depends on third-party software and pretraining sources. In pa
 **Task-Beneficial Underwater Image Enhancement via Learned Action Manifolds and Policy Amortization**  
 Shiyao Feng, Jun-Hong Cui, ChunRu Wan, Gaochao Xu.
 
-The manuscript is being prepared for *IEEE Transactions on Image Processing*. A paper URL, any preprint identifier, DOI and the official BibTeX entry will be added when they are actually available. **Please do not cite this work as accepted or published by TIP before a formal decision.**
+The manuscript is being prepared for *IEEE Transactions on Image Processing*. A paper URL, any preprint identifier, DOI and the official BibTeX entry will be added when they are actually available. **Please do not cite this work as accepted or published.**
 
 ## Questions
 
