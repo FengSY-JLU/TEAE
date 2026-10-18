@@ -1,0 +1,122 @@
+{
+  "schema": "teae.public.model_release.v1",
+  "status": "sanitized-model-only-equality-checked, isolated end-to-end replay still required",
+  "weights_location": "weights/",
+  "models": [
+    {
+      "role": "student",
+      "filename": "teae_c2a_student.pt",
+      "source_checkpoint_sha256": "ec072535d0e627281605c0b128adb52f60866bf6c5382a5e75d9c80421a277f0",
+      "model_only_sha256": "c935db8501baeaa5013ba57846c1db083acbeb078e9bf48ee7bfd6882c159828",
+      "size_bytes": 122460622,
+      "tensor_count": 671
+    },
+    {
+      "role": "teacher_a",
+      "filename": "assets/teachers/unet_vgg16/final.pth",
+      "source_checkpoint_sha256": "8b43a4a259ee993254ce087010bf751f6ef3dcfcf2334b8a43f0305636ef4f8f",
+      "model_only_sha256": "2230f8cbe1417284c05b3479093fac789b66a7367568b20af03a5b618a644ef1",
+      "size_bytes": 73037205,
+      "tensor_count": 90,
+      "architecture": "unet_vgg16"
+    },
+    {
+      "role": "teacher_a",
+      "filename": "assets/teachers/segformer_b2/final.pth",
+      "source_checkpoint_sha256": "cfe0a289f4f6170645ce83754578f691bdda551cf1bda89dac26e7beecf20f17",
+      "model_only_sha256": "8646294285b419f61f2b907a4f9bba0782102f7560f3cac2d8f494c362533d8b",
+      "size_bytes": 107410755,
+      "tensor_count": 380,
+      "architecture": "segformer_b2"
+    },
+    {
+      "role": "teacher_a",
+      "filename": "assets/teachers/hrnet_w18/final.pth",
+      "source_checkpoint_sha256": "e89145b5ac09db3c380f340f3bc8e6f502bf7449a193f84f5ff537a80bc068d6",
+      "model_only_sha256": "f2c76cb3d1dc464b3696dccc8068404b4d529a06c20e0d485ab89bc63da270e6",
+      "size_bytes": 53932465,
+      "tensor_count": 1950,
+      "architecture": "hrnet_w18"
+    },
+    {
+      "role": "teacher_b",
+      "filename": "protocol_b_unet_vgg16_raw_e80.pth",
+      "source_checkpoint_sha256": "fe0ff58c8938881bc6ab033d2d3ed3371cbc9b0c5244f635f14b024916ac19c2",
+      "model_only_sha256": "35f959ef5d0d8cc15b905a4fa3fdfebcff6a13864ffc265d4243053d94fe9653",
+      "size_bytes": 73044629,
+      "tensor_count": 90,
+      "architecture": "unet_vgg16",
+      "input_domain": "raw"
+    },
+    {
+      "role": "teacher_b",
+      "filename": "protocol_b_unet_vgg16_dti_e80.pth",
+      "source_checkpoint_sha256": "0c683e7f5d797049609ed9bfc2eefe1d4845036ce5062d3120fbae4263c4ab53",
+      "model_only_sha256": "5675f60dd24cee09369f49e39f9b0385246598aa51097c0a423a715b69a69641",
+      "size_bytes": 73044629,
+      "tensor_count": 90,
+      "architecture": "unet_vgg16",
+      "input_domain": "dti"
+    },
+    {
+      "role": "teacher_b",
+      "filename": "protocol_b_unet_vgg16_hsr_e80.pth",
+      "source_checkpoint_sha256": "0462050ee55d6f70c50a70e4aa501ca0f95eb9b3f582dd596b0e97d51fa03708",
+      "model_only_sha256": "73fc54c12154cb1c98ce39facb0232bfe4ded86a3ce26a16ac447a9cfdb2e643",
+      "size_bytes": 73044629,
+      "tensor_count": 90,
+      "architecture": "unet_vgg16",
+      "input_domain": "hsr"
+    },
+    {
+      "role": "teacher_b",
+      "filename": "protocol_b_unet_vgg16_teae_e80.pth",
+      "source_checkpoint_sha256": "c30dad4989b59d20e1e290a2b4d323225e7b49caf83b30b0f4340c79355b9f00",
+      "model_only_sha256": "d0a7537bb1fa593b3d5f8387fc110f89d201e463b281aa9bf913d3b07a534593",
+      "size_bytes": 73044725,
+      "tensor_count": 90,
+      "architecture": "unet_vgg16",
+      "input_domain": "teae"
+    },
+    {
+      "role": "teacher_b",
+      "filename": "protocol_b_segformer_b2_raw_e80.pth",
+      "source_checkpoint_sha256": "f1543005cbb23c9726cbe557ca62f5b71c549d663afa5eb16d589046341f414b",
+      "model_only_sha256": "3a4b9079e9ab18ffe54bc8f213394802212d71a171e5c229aabf39431a9d0fbf",
+      "size_bytes": 107445047,
+      "tensor_count": 380,
+      "architecture": "segformer_b2",
+      "input_domain": "raw"
+    },
+    {
+      "role": "teacher_b",
+      "filename": "protocol_b_segformer_b2_dti_e80.pth",
+      "source_checkpoint_sha256": "4c6154eb2202e3687f71246c57081b5b8359c72cfceffbd86fa1d327bdb10cbf",
+      "model_only_sha256": "cac52bdfb52ea8921e6d5e2b5a3b7bc2e13a1d485979fe8cc990053402448e26",
+      "size_bytes": 107445047,
+      "tensor_count": 380,
+      "architecture": "segformer_b2",
+      "input_domain": "dti"
+    },
+    {
+      "role": "teacher_b",
+      "filename": "protocol_b_segformer_b2_hsr_e80.pth",
+      "source_checkpoint_sha256": "bd9745f70773b22684e3dc8381353da026a464e860f9e660188ecf4525af85f8",
+      "model_only_sha256": "56962b0a217df7c5235aa41e27baa2a8e823f478093cd1f21433d6752678afc2",
+      "size_bytes": 107445047,
+      "tensor_count": 380,
+      "architecture": "segformer_b2",
+      "input_domain": "hsr"
+    },
+    {
+      "role": "teacher_b",
+      "filename": "protocol_b_segformer_b2_teae_e80.pth",
+      "source_checkpoint_sha256": "52b80918ed068ecda99cc00c77d4e290802cff909712d2019e1f99aa301a83fa",
+      "model_only_sha256": "0a4eafc817a4c0fc35c75e28057b22318f61caa7928404b474cd33dc515249db",
+      "size_bytes": 107445433,
+      "tensor_count": 380,
+      "architecture": "segformer_b2",
+      "input_domain": "teae"
+    }
+  ]
+}

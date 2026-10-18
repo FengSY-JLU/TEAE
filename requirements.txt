@@ -1,0 +1,10 @@
+# Version ranges are deliberately not presented as a lockfile.
+# Original experiments used PyTorch 2.7.1+cu118; match CUDA environment separately.
+torch==2.7.1
+torchvision
+numpy
+Pillow
+scipy
+timm
+transformers
+safetensors

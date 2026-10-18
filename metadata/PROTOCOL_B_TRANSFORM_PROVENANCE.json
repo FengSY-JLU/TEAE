@@ -1,0 +1,13 @@
+{
+  "source_role": "exact frozen Protocol-B evaluation-time segmentation transform",
+  "original_source_sha256": "6da4671c6abacddf596af52f5d014afbbf63afae57b65fc37ccff84cbcfc4052",
+  "public_copy_sha256": "6da4671c6abacddf596af52f5d014afbbf63afae57b65fc37ccff84cbcfc4052",
+  "formal_evaluator_sha256": "2221949a4fd7a019091a81cea66206249f318a9fc27358337df9e3b670f01825",
+  "validation_size": 384,
+  "ignore_index": 255,
+  "frozen_batch_size": {
+    "unet_vgg16": 8,
+    "segformer_b2": 4
+  },
+  "licensing_review_required": true
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "7f905cca9bfa5e29fcb3f4a10381e2a1a81a92b0d52135fb490265b8d2b46a93",
+    "bytes": 103
+  },
+  {
+    "path": "README.md",
+    "sha256": "16db8e8cc0c24e8fbc93e37440318da541112f39f81de0793492446d34591b2e",
+    "bytes": 3989
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "sha256": "eaa1e639748ffe20a0ff7d9cd761cbadb7c53cc1946e041a02055ab032209e05",
+    "bytes": 1046
+  },
+  {
+    "path": "benchmarks/DTI_HSR_FAIR_EVALUATION_PROTOCOL.md",
+    "sha256": "715ef924e2c2de2d8dcb58807f2c2b802177180ccd65421e7e69329607c44c43",
+    "bytes": 3314
+  },
+  {
+    "path": "benchmarks/README.md",
+    "sha256": "4b7f6547d8eafbaf50ae4aa61597d94e24a0525903673632f7dd52308074cf1c",
+    "bytes": 3321
+  },
+  {
+    "path": "benchmarks/frozen_benchmark_evidence.json",
+    "sha256": "e573cbe0c1dff2a3759d4e3c0bb2d29d5e892d725a7d53a6478fdbe9dd91cc79",
+    "bytes": 4716
+  },
+  {
+    "path": "data/__init__.py",
+    "sha256": "4a1f9dba35489cc4dea619fa5a3c3c5bb732c57a898b60aea380166022c7f6af",
+    "bytes": 51
+  },
+  {
+    "path": "data/segmentation/__init__.py",
+    "sha256": "4a1f9dba35489cc4dea619fa5a3c3c5bb732c57a898b60aea380166022c7f6af",
+    "bytes": 51
+  },
+  {
+    "path": "data/segmentation/collate.py",
+    "sha256": "4b0d5b223864dcb1c90efcf4785a75f9689e9b66593b2229f7f9efb086b5d8f3",
+    "bytes": 4501
+  },
+  {
+    "path": "data/segmentation/loader.py",
+    "sha256": "c92f3791ff579fb06171c0711f310bb940851890975faf74548456e7fb882b88",
+    "bytes": 3334
+  },
+  {
+    "path": "data/segmentation/suim_dataset.py",
+    "sha256": "306a141c17ea46d8361075064a6ce0c3a1898dc4c688d34e0286e8b88ae27980",
+    "bytes": 15653
+  },
+  {
+    "path": "data/segmentation/suim_mask_codec.py",
+    "sha256": "4779e43aba8e0766abc647013a1bbb3e093aab3155831d70f8131182e6558bea",
+    "bytes": 9635
+  },
+  {
+    "path": "data/transforms.py",
+    "sha256": "e014c861a6db9e2d57d7b31b543f76794cd450597f260e94a24dd66d04f5ff2e",
+    "bytes": 2300
+  },
+  {
+    "path": "evaluation/__init__.py",
+    "sha256": "90fc5638e41c92515a88d4ad4a5cdc2cca9df5648dd65babc0c33ece4fa1818f",
+    "bytes": 51
+  },
+  {
+    "path": "evaluation/protocol_a.py",
+    "sha256": "03182ba2c360fa7c3842878ebc2a81e06c1b68103bf29f861e4061bc96d5d819",
+    "bytes": 5415
+  },
+  {
+    "path": "evaluation/protocol_a_metrics.py",
+    "sha256": "c06a9ed725eafbd5a7f891aa3900f969af4373ed12a5a31237be0780268fb31e",
+    "bytes": 2371
+  },
+  {
+    "path": "evaluation/protocol_b.py",
+    "sha256": "d62a2bfe07ffc70b24a1f7c95af08e927094439977e682c4027a1c6142036e0d",
+    "bytes": 10584
+  },
+  {
+    "path": "evaluation/verify_frozen_results.py",
+    "sha256": "f201e6602878bd86da170e3fdf2fc2a487a27139225ef1158230c332bba8bf82",
+    "bytes": 2651
+  },
+  {
+    "path": "inference/__init__.py",
+    "sha256": "90fc5638e41c92515a88d4ad4a5cdc2cca9df5648dd65babc0c33ece4fa1818f",
+    "bytes": 51
+  },
+  {
+    "path": "inference/run.py",
+    "sha256": "60c1dc47688cb4d94d4bd25c1f55d1426e3214f00b6d152241f4aa9c1aff7f0e",
+    "bytes": 5878
+  },
+  {
+    "path": "metadata/PREPUBLICATION_REVIEW.md",
+    "sha256": "b786f8c5de8f58b54076449d8d85670d1b22b1273eb436d60b9743ef93ddc9f7",
+    "bytes": 1767
+  },
+  {
+    "path": "metadata/RELEASE_GUIDE.md",
+    "sha256": "3d8f1055d7c9262638b3deb1bf4ce5a38100c4b54c9f62cfb86df1069fe0ed1d",
+    "bytes": 953
+  },
+  {
+    "path": "metadata/release_models.json",
+    "sha256": "3d2bd44403f8dd647a0d7c86c732f8cdd88913c8b4c9893a96b729cd3cc7df57",
+    "bytes": 5016
+  },
+  {
+    "path": "models/__init__.py",
+    "sha256": "4a1f9dba35489cc4dea619fa5a3c3c5bb732c57a898b60aea380166022c7f6af",
+    "bytes": 51
+  },
+  {
+    "path": "models/enhancer/__init__.py",
+    "sha256": "4a1f9dba35489cc4dea619fa5a3c3c5bb732c57a898b60aea380166022c7f6af",
+    "bytes": 51
+  },
+  {
+    "path": "models/enhancer/nafnet_raw_anchored.py",
+    "sha256": "cb14ebdaac70a60dbe8dc476812cb24966dedb3b87287d2956b2a08cf9f24e22",
+    "bytes": 7910
+  },
+  {
+    "path": "models/enhancer/nafnet_raw_anchored_task_state_v1.py",
+    "sha256": "cae0b2d6bb9c335c392ee4447780cfc081d0f93a77250890c12a148e891482d4",
+    "bytes": 17526
+  },
+  {
+    "path": "models/teae/__init__.py",
+    "sha256": "4a1f9dba35489cc4dea619fa5a3c3c5bb732c57a898b60aea380166022c7f6af",
+    "bytes": 51
+  },
+  {
+    "path": "models/teae/inference_output.py",
+    "sha256": "bd2901647dcc039ceef3da67f6321328aae72e56cbdfa436b819178476b7f2f4",
+    "bytes": 800
+  },
+  {
+    "path": "requirements.txt",
+    "sha256": "80652cc32c7b851df9ee531c3139f1362c0e03b8e41629599316abfce02d3880",
+    "bytes": 221
+  },
+  {
+    "path": "scripts/__init__.py",
+    "sha256": "e29d63a3ebb0a7420f5810fafab838bdae3a423f5f9d0a90b3b14828062e686b",
+    "bytes": 41
+  },
+  {
+    "path": "scripts/reproduce_all.py",
+    "sha256": "7b6e4bdfb23808a31409cf07c2cb3d7ebcf5ca51667c8e0ce1857752d330e780",
+    "bytes": 2609
+  },
+  {
+    "path": "teachers/__init__.py",
+    "sha256": "4a1f9dba35489cc4dea619fa5a3c3c5bb732c57a898b60aea380166022c7f6af",
+    "bytes": 51
+  },
+  {
+    "path": "teachers/architectures/__init__.py",
+    "sha256": "4a1f9dba35489cc4dea619fa5a3c3c5bb732c57a898b60aea380166022c7f6af",
+    "bytes": 51
+  },
+  {
+    "path": "teachers/architectures/common.py",
+    "sha256": "8a81bc2c6bc2df9ace7b792e373ecfc439512d0570a3f0f73af4bdbde1e28337",
+    "bytes": 2126
+  },
+  {
+    "path": "teachers/architectures/deeplabv3plus.py",
+    "sha256": "dfacdfb3aba77f31afec1f0a6e19e022cdef671a78eaee4d6fa038939e8e5823",
+    "bytes": 5346
+  },
+  {
+    "path": "teachers/architectures/hrnet_w18.py",
+    "sha256": "91f6bb3be02f76aa23c51a24b261612192413a7d520ede47431e3861f92f9676",
+    "bytes": 3230
+  },
+  {
+    "path": "teachers/architectures/segformer_b2.py",
+    "sha256": "9614a6afb0bf8e260278151346c9b2f43f67971497457481c288e500e4629316",
+    "bytes": 3916
+  },
+  {
+    "path": "teachers/architectures/unet_vgg16.py",
+    "sha256": "b17360877edf96348a5b1abf2f65df33fb250a5de6caf398dbbf149cfccf1068",
+    "bytes": 3517
+  },
+  {
+    "path": "teachers/frozen_ensemble.py",
+    "sha256": "06402ffca4e3a96b82d51a3a9ae64a2066c74f0180bccab80e328d3cd31452a7",
+    "bytes": 7165
+  }
+]
